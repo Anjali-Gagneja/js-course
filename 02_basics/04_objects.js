@@ -52,12 +52,42 @@ const users = [
 ]
 
 users[1].email;
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged')); // tells us if the property exits in our data or not
+//console.log(tinderUser.hasOwnProperty('isLogged')); // tells us if the property exits in our data or not
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "1000",
+    courseInstructor: "Hitesh"
+}
+
+//course.courseInstructor
+
+
+const {courseInstructor: instructor} = course
+console.log(instructor); // this is called object destructuring
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "hitesh")
+//this is destructuring in react
+
+// {
+//     name: "Hitesh",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
